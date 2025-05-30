@@ -37,4 +37,4 @@ class TestDepartmentProperties:
         '''validates location property length > 0'''
         with pytest.raises(ValueError):
             department = Department("Payroll", "Building A, 5th Floor")
-            department.name = ''
+            department.location = ''
